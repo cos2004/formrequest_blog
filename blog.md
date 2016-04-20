@@ -45,7 +45,7 @@ Content-Type: image/png
 
 分析一下这种编码格式的特点：
 
-2、request header里声明Content-Type，并且在其后加上数据分界符：boundary，即：Content-Type:multipart/form-data; boundary=----WebKitFormBoundary0yB3cIYoABZUBzEm。
+1、request header里声明Content-Type，并且在其后加上数据分界符：boundary，即：Content-Type:multipart/form-data; boundary=----WebKitFormBoundary0yB3cIYoABZUBzEm。
 
 boundary的字符应该是随机的，防止提交的数据里有相同字符而影响服务器的数据解析。
 
