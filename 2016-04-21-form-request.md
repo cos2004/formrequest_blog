@@ -1,6 +1,6 @@
 title: 如何用ArrayBuffer构造一个form请求
 subtitle: form表单数据编码类型为multi/formdata的分析
-cover: 
+cover: http://storage.jd.com/o2team/home/formrequest_cover1461222741603.png
 tags:
 - form
 - xhr2
